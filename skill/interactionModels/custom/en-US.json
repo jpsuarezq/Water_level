@@ -1,0 +1,65 @@
+{
+  "interactionModel": {
+    "dialog": {
+      "intents": [
+        {
+          "slots": [],
+          "name": "AMAZON.StopIntent",
+          "confirmationRequired": false,
+          "prompts": {}
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.RepeatIntent"
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "nivel",
+          "samples": [
+            "Dime el nivel del tanque",
+            "Nivel de tanque",
+            "Nivel del tanque",
+            "Cual es el nivel del tanque"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "invocationName": "tanque",
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  }
+}

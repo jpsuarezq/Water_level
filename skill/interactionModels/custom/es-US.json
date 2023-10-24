@@ -1,0 +1,52 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "nivel",
+          "samples": [
+            "Dime el nivel del tanque",
+            "Nivel de tanque",
+            "Nivel del tanque",
+            "Cual es el nivel del tanque"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "nivel tanque"
+    }
+  }
+}

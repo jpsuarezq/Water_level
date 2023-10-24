@@ -1,0 +1,68 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:456922565939:function:a00342d5-569e-42f2-8688-954ca8f7ddfd:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:456922565939:function:a00342d5-569e-42f2-8688-954ca8f7ddfd:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:456922565939:function:a00342d5-569e-42f2-8688-954ca8f7ddfd:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:456922565939:function:a00342d5-569e-42f2-8688-954ca8f7ddfd:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "usesPersonalInfo": false
+    },
+    "publishingInformation": {
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "",
+          "examplePhrases": [
+            "Alexa, open Tanque",
+            "Alexa, start Tanque",
+            "Alexa, launch Tanque"
+          ],
+          "keywords": [],
+          "name": "NW",
+          "summary": "",
+          "updatesDescription": ""
+        },
+        "es-US": {
+          "description": "",
+          "examplePhrases": [
+            "Alexa, open Tanque",
+            "Alexa, start Tanque",
+            "Alexa, launch Tanque"
+          ],
+          "keywords": [],
+          "name": "NW",
+          "summary": "",
+          "updatesDescription": ""
+        }
+      },
+      "testingInstructions": ""
+    }
+  }
+}
